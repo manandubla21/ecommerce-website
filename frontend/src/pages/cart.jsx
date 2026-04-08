@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext.jsx'
 import Title from '../components/Title.jsx'
 import { assets } from '../assets/assets.js';
-import CartTotal from '../components/cartTotal.jsx';
+import CartTotal from '../components/CartTotal.jsx';
 
 const cart = () => {
   const { products, currency, cartItems, updateQuantity, navigate } = useContext(ShopContext);
